@@ -5,7 +5,7 @@ services:
     ports:
       - 80:8080
     volumes:
-      - C:\nithin\sushma devops notes\volumesvolumes:/usr/src/myapp
+      - vol:/usr/src/myapp
 volumes:
-  volumesvolumes:
+  vol:
     driver: local
