@@ -6,3 +6,6 @@ services:
       - 80:8080
     volumes:
       - v1:/usr/src/myapp
+volumes:
+  v1:
+    driver: local
