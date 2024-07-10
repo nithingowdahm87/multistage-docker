@@ -5,4 +5,4 @@ services:
     ports:
       - 80:8080
     volumes:
-      - \\linux\docker-desktop-data\data\docker\volumes\v3:/usr/src/myapp
+      - \\wsl.localhost\docker-desktop-data\data\docker\volumes\v1:/usr/src/myapp
