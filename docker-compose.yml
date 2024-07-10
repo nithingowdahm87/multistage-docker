@@ -7,5 +7,5 @@ services:
     volumes:
       - C:\nithin\sushma devops notes\volumesvolumes:/usr/src/myapp
 volumes:
-volumesvolumes
-driver:local
+  volumesvolumes:
+    driver: local
